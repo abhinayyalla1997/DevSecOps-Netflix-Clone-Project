@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: netflix
+  namespace: argocd   # IMPORTANT
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/abhinayyalla1997/DevSecOps-Netflix-Clone-Project.git
+    targetRevision: HEAD
+    path: helm/netflix-chart
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
