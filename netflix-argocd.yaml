@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/abhinayyalla1997/DevSecOps-Netflix-Clone-Project.git
-    targetRevision: HEAD
+    targetRevision: main
     path: helm/netflix-chart
 
   destination:
