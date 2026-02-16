@@ -42,10 +42,8 @@ This project demonstrates a complete DevSecOps workflow:
 
 📸 Screenshot:
 
-```md
 <img width="795" height="713" alt="Screenshot 2026-02-16 at 11 49 15 PM" src="https://github.com/user-attachments/assets/b3e037d3-b73c-4e00-846e-9fe8e36ec839" />
 ![CI Pipeline](screenshots/ci-pipeline.png)
-```
 
 ---
 
@@ -75,9 +73,7 @@ Deployment flow:
 
 📸 ArgoCD Screenshot:
 
-```md
 <img width="804" height="706" alt="Screenshot 2026-02-16 at 11 50 21 PM" src="https://github.com/user-attachments/assets/e85b650f-a47d-48dc-ad60-4bd0b4d9932b" />
-```
 
 ---
 
@@ -92,9 +88,7 @@ Resources Deployed:
 
 📸 Kubernetes Screenshot:
 
-```md
 <img width="1440" height="900" alt="Screenshot 2026-02-16 at 3 29 04 AM" src="https://github.com/user-attachments/assets/6f103300-8620-4057-8302-43080d234938" />
-```
 
 ---
 
@@ -107,15 +101,11 @@ Monitoring Stack:
 
 📸 Prometheus Screenshot:
 
-```md
 <img width="1440" height="900" alt="Screenshot 2026-02-16 at 3 29 14 AM" src="https://github.com/user-attachments/assets/4200d464-2d60-4e7b-a691-aa8296190c48" />
-```
 
 📸 Grafana Dashboard:
 
-```md
 <img width="1440" height="808" alt="Screenshot 2026-02-16 at 11 53 46 PM" src="https://github.com/user-attachments/assets/90b17d44-88fa-4733-bd52-3a57ad86fe8e" />
-```
 
 ---
 
