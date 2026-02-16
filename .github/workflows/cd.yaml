@@ -48,7 +48,7 @@ jobs:
       # ✅ Update Helm Values
       - name: Update Helm Image Tag
         run: |
-          sed -i "s/tag:.*/tag: ${{ github.sha }}/" helm/netflix-chart/values.yaml
+          sed -i "s/tag:.*/tag: ${{ github.sha }}/" netflix-chart/values.yaml
 
       # ✅ Commit Updated Values
       - name: Commit Helm Update
